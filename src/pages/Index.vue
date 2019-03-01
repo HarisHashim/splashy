@@ -48,8 +48,8 @@
       <q-img
         v-if="isFour"
         class="fixed-center q-mt-lg"
-        style="width: 310px; height: 91px; opacity:.9;"
-        src="/statics/snlogo.png"
+        style="width: 310px; height: 91px; opacity:.75; background:white"
+        src="/statics/snlogo_trans.png"
         spinner-color="white"
       />
       <!-- </q-card-section>
