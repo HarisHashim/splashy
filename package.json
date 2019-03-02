@@ -1,8 +1,8 @@
 {
   "name": "splashy",
-  "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "A Splashy Concept & Template",
+  "version": "1.0.0",
+  "description": "Studio Nexus",
+  "productName": "Studio Nexus",
   "cordovaId": "org.cordova.quasar.app",
   "author": "Haris <harishashim@gmail.com>",
   "private": true,

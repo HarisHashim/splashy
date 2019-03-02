@@ -9,7 +9,10 @@
         />
       </q-toolbar>
     </q-header>-->
-    <div class style="width:100%;">
+    <div
+      class
+      style="width:100%;"
+    >
       <q-carousel
         v-model="slideName"
         :height="windowHeight"
@@ -19,10 +22,22 @@
         navigation
         autoplay
       >
-        <q-carousel-slide :name="1" img-src="/statics/photo/analog.jpg"/>
-        <q-carousel-slide :name="2" img-src="/statics/photo/bright.jpg"/>
-        <q-carousel-slide :name="3" img-src="/statics/photo/application.jpg"/>
-        <q-carousel-slide :name="4" img-src="/statics/photo/board.jpg"/>
+        <q-carousel-slide
+          :name="1"
+          img-src="statics/photo/analog.jpg"
+        />
+        <q-carousel-slide
+          :name="2"
+          img-src="statics/photo/bright.jpg"
+        />
+        <q-carousel-slide
+          :name="3"
+          img-src="statics/photo/application.jpg"
+        />
+        <q-carousel-slide
+          :name="4"
+          img-src="statics/photo/board.jpg"
+        />
       </q-carousel>
 
       <q-card
@@ -37,14 +52,6 @@
         </q-card-section>
       </q-card>
 
-      <!-- <q-card
-        :class="{'card-bottom-left':isFour, 'bg-secondary':true}"
-        dark
-        bordered
-        style="width: 310px; height: 91px; opacity:.9;"
-      >
-      <q-card-section class="item-center">
-      :class="{'card-bottom-left':isFour}"-->
       <q-img
         v-if="isFour"
         class="fixed-center q-mt-lg"
@@ -108,8 +115,8 @@ export default {
       slideName: 1,
       slideText: [
         "One is the loneliest number ...",
-        "Bright idea worthy of bright compensation",
-        "Excelence through design!",
+        "Bright idea worthy of bright compensation.",
+        "Excellence through design.",
         "Stay tuned, we are coming!"
       ]
     };

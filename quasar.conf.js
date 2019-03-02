@@ -1,6 +1,6 @@
 // Configuration for your app
 
-module.exports = function(ctx) {
+module.exports = function (ctx) {
   return {
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
@@ -36,7 +36,9 @@ module.exports = function(ctx) {
         "QCarousel",
         "QCarouselControl",
         "QCarouselSlide",
-        "QImg"
+        "QImg",
+        "QCard",
+        "QCardSection"
       ],
 
       directives: ["Ripple"],
@@ -52,7 +54,7 @@ module.exports = function(ctx) {
 
     build: {
       scopeHoisting: true,
-      // publicPath: "splashy-page",
+      publicPath: "splashy-page",
       vueRouterMode: "history",
       // vueCompiler: true,
       // gzip: true,
@@ -92,8 +94,7 @@ module.exports = function(ctx) {
         orientation: "portrait",
         background_color: "#ffffff",
         theme_color: "#027be3",
-        icons: [
-          {
+        icons: [{
             src: "statics/icons/icon-128x128.png",
             sizes: "128x128",
             type: "image/png"
