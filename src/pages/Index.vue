@@ -1,14 +1,5 @@
 <template>
   <q-page class="flex flex-center">
-    <!-- <q-header elevated class>
-      <q-toolbar style="height:55px;">
-        <q-img
-          src="/statics/snlogo.png"
-          spinner-color="white"
-          style="height: 47px; max-width: 264px"
-        />
-      </q-toolbar>
-    </q-header>-->
     <div
       class
       style="width:100%;"
@@ -17,7 +8,6 @@
         v-model="slideName"
         :height="windowHeight"
         class
-        animated
         arrows
         navigation
         autoplay
@@ -55,12 +45,10 @@
       <q-img
         v-if="isFour"
         class="fixed-center q-mt-lg"
-        style="width: 310px; height: 91px; opacity:.75; background:white"
-        src="/statics/snlogo_trans.png"
+        style="width: 310px; height: 91px; opacity:.95; background:white"
+        src="statics/photo/snlogo_trans.png"
         spinner-color="white"
       />
-      <!-- </q-card-section>
-      </q-card>-->
     </div>
   </q-page>
 </template>

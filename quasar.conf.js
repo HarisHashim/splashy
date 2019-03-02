@@ -54,7 +54,7 @@ module.exports = function (ctx) {
 
     build: {
       scopeHoisting: true,
-      publicPath: "splashy-page",
+      // publicPath: "splashy-page",
       vueRouterMode: "history",
       // vueCompiler: true,
       // gzip: true,
